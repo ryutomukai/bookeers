@@ -13,3 +13,143 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+th {
+    padding-bottom: 5px;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align:center;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+p {
+    display: block;
+    margin: 33px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+header{
+  width:90%;
+  padding:15px 0;
+  margin:15px auto 0;
+}
+
+header.headline{
+  font-size:32px;
+}
+
+nav{
+  width:880px;
+  margin:0 auto;
+}
+
+.nav-list{
+  text-align:center;
+  padding:10px 0;
+  margin:0 auto;
+}
+
+.nav-list-item{
+  list-style:none;
+  display:inline-block;
+  margin:0 20px;
+}
+.book-box{
+  width:200px;
+  height:250px;
+  margin:10px;
+}
+
+.box-comment{
+  width:200px;
+}
+
+.field,.actions {
+    margin-bottom: 10px;
+    display: block;
+}
+
+label {
+    display: block;
+    cursor: default;
+}
+
+textarea{
+  word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    argin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.notifications{
+    color: green;
+}
